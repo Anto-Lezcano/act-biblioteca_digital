@@ -1,4 +1,4 @@
-import IUsuario from "../interfaces/IUsuario.js";
+import type IUsuario from "../interfaces/IUsuario.js";
 import { Material } from "./material.js";
 export default class Usuario implements IUsuario {
   id: number;

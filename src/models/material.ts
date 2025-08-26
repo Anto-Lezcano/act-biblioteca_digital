@@ -1,4 +1,4 @@
-import { IBibliotecaItem } from "../interfaces/IBibliotecaItem.js";
+import type { IBibliotecaItem } from "../interfaces/IBibliotecaItem.js";
 
 export abstract class Material implements IBibliotecaItem {
   readonly id: number;
